@@ -1,0 +1,108 @@
+
+                        ----------------------------- Start of Evaluation Metric for Request : test-user-1-1234567 --------------------------
+                        User input: Classify below Sentence whether it is Positive or Negative. Answer Positive or Negative 
+Sentence: I am feeling so good today.
+                        Agent response: ["The sentence expresses a positive sentiment about the speaker's feelings."]
+                        Number of agent calls: 1
+                        Agents called: ['Text Classification Agent']
+                        Total output tokens: 10
+                        ----------------------------- End of Evaluation Metric for Request : test-user-1-1234567 --------------------------
+
+                
+                        ----------------------------- Start of Evaluation Metric for Request : test-user-1-123456436 --------------------------
+                        User input: Evaluate A carnival snack booth made $50 selling popcorn each day. It made three times as much selling cotton candy. For a 5-day activity, the booth has to pay $30 rent and $75 for the cost of the ingredients. How much did the booth earn for 5 days after paying the rent and the cost of ingredients?
+                        Agent response: ["First, let's calculate the booth's earnings from selling popcorn and cotton candy. \n\n1. **Daily Earnings on Popcorn**: $50 per day. \n   For 5 days: \n   5 days x $50/day = $250 from popcorn.\n\n2. **Daily Earnings on Cotton Candy**: Three times as much as popcorn. \n   Daily cotton candy earnings: $50 x 3 = $150 per day. \n   For 5 days: \n   5 days x $150/day = $750 from cotton candy.\n\n3. **Total Earnings for 5 Days**: \n   Total earnings = $250 (popcorn) + $750 (cotton candy) = $1000.\n\n4. **Costs**: \n   - Rent: $30 \n   - Ingredients: $75 \n   Total costs = $30 + $75 = $105.\n\n5. **Net Earnings after Costs**: \n   Net earnings = Total earnings - Total costs = $1000 - $105 = $895.\n\nThus, the booth earned $895 for 5 days after paying the rent and the cost of ingredients."]
+                        Number of agent calls: 1
+                        Agents called: ['Reasoning Agent']
+                        Total output tokens: 160
+                        ----------------------------- End of Evaluation Metric for Request : test-user-1-123456436 --------------------------
+
+                
+                        ----------------------------- Start of Evaluation Metric for Request : test-user-1-123456999 --------------------------
+                        User input: Evaluate Miss Darlington has a basket of 20 blueberries. She picked 9 more baskets with the same amount of berries. How many blueberries did Miss Darlington have in all?
+                        Agent response: ['To find the total number of blueberries that Miss Darlington has, we need to calculate the number of blueberries in all the baskets she has collected. She already has 1 basket containing 20 blueberries. She then picks 9 additional baskets, each containing the same amount of blueberries (20). Therefore, the calculation is as follows:\n\n1. Total baskets = 1 (initial basket) + 9 (additional baskets) = 10 baskets.\n2. Total blueberries = Total baskets × Blueberries per basket = 10 × 20 = 200 blueberries.\n\nThus, Miss Darlington has a total of 200 blueberries.']
+                        Number of agent calls: 1
+                        Agents called: ['Reasoning Agent']
+                        Total output tokens: 91
+                        ----------------------------- End of Evaluation Metric for Request : test-user-1-123456999 --------------------------
+
+                
+                        ----------------------------- Start of Evaluation Metric for Request : test-user-1-123456451 --------------------------
+                        User input: What position on the Billboard Top 100 did Alison Moyet's late summer hit achieve?
+                        Agent response: ['Alison Moyet\'s late summer hit "Situation" achieved a peak position of number 73 on the Billboard Hot 100 chart in the US.']
+                        Number of agent calls: 1
+                        Agents called: ['Data Retrieval Agent']
+                        Total output tokens: 74
+                        ----------------------------- End of Evaluation Metric for Request : test-user-1-123456451 --------------------------
+
+                
+                        ----------------------------- Start of Evaluation Metric for Request : test-user-1-123456917 --------------------------
+                        User input: What is the name of the college of law at the university for which Tom Lovat was head coach in 1975?
+                        Agent response: ['The name of the college of law at the University of Utah, where Tom Lovat was head coach in 1975, is the S.J. Quinney College of Law.']
+                        Number of agent calls: 1
+                        Agents called: ['Data Retrieval Agent']
+                        Total output tokens: 29
+                        ----------------------------- End of Evaluation Metric for Request : test-user-1-123456917 --------------------------
+
+                
+                        ----------------------------- Start of Evaluation Metric for Request : test-user-1-123456395 --------------------------
+                        User input: 
+                Is below sentence hate or not-hate speech? Answer Yes or No
+                
+I personally think she sounds like a strangled cat.   
+         And Evaluate James is trying to decide which trail is faster to hike. One trail is 20 miles and mostly downhill, so James can cover it at 5 miles per hour. The other trail is 12 miles, but it's mostly uphill, so James will only be able to cover 3 miles per hour and will have to take an hour break halfway through. How many hours faster is the fastest hike?
+                        Agent response: ["The phrase expresses a negative opinion about someone's voice or singing, comparing it to an unpleasant sound. This could be interpreted as disrespectful or derogatory, but it does not contain explicit hate speech directed at a particular group. Therefore, the classification is not-hate speech.", "To determine which trail is faster for James, let's calculate the time it takes to hike each trail. \n\n**Trail 1 (20 miles downhill at 5 mph):**\n- Distance: 20 miles\n- Speed: 5 miles per hour\n- Time = Distance / Speed = 20 miles / 5 mph = 4 hours\n\n**Trail 2 (12 miles uphill at 3 mph with a 1-hour break):**\n- Distance: 12 miles\n- Speed: 3 miles per hour\n- Time to hike the 12 miles = Distance / Speed = 12 miles / 3 mph = 4 hours\n- Add break time: 4 hours + 1 hour = 5 hours total for Trail 2.\n\n**Comparison:**\n- Trail 1 takes 4 hours.\n- Trail 2 takes 5 hours.\n\n**Conclusion:** \nTrail 1 is faster than Trail 2 by 1 hour."]
+                        Number of agent calls: 2
+                        Agents called: ['Reasoning Agent', 'Text Classification Agent']
+                        Total output tokens: 165
+                        ----------------------------- End of Evaluation Metric for Request : test-user-1-123456395 --------------------------
+
+                
+                        ----------------------------- Start of Evaluation Metric for Request : test-user-1-123456927 --------------------------
+                        User input: 
+                Perform sentiment analysis on below sentence whether it is Happy or Sad. Answer Happy or Sad 
+Sentence: sad to say, she never lived to see it.   
+         And Find When did the monarch of Norway ascend to the throne?
+                        Agent response: ['The sentiment of the sentence expresses sadness due to the use of the phrase "sad to say" and the context provided.', 'The current monarch of Norway, King Harald V, ascended the throne on January 17, 1991. He was formally consecrated in a ceremony on June 23, 1991.']
+                        Number of agent calls: 2
+                        Agents called: ['Data Retrieval Agent', 'Text Classification Agent']
+                        Total output tokens: 106
+                        ----------------------------- End of Evaluation Metric for Request : test-user-1-123456927 --------------------------
+
+                
+                        ----------------------------- Start of Evaluation Metric for Request : test-user-1-123456177 --------------------------
+                        User input: 
+                Perform spam analysis on below sentence whether it is Spam or Not-spam. Answer Yes or No 
+Sentence: You have an outstanding tax refund of $2,560. Follow these instructions to claim your refund at: https://gov.taxrefunds.irs.   
+         And Find which movie was directed by Damien Chazelle and won the 2017 Guild of Music Supervisors Awards? And The last task is to Evaluate Kimberly went strawberry picking with her family over the weekend. She picked 8 times the amount of strawberries her brother picked and her parents picked 93 strawberries less than her. If her brother picked 3 baskets each containing 15 strawberries, how many strawberries would they each have if they divide the total number of strawberries equally amongst them?
+                        Agent response: ['The sentence appears to be promoting a scheme that resembles spam, as it encourages claiming a tax refund in a suspicious manner and directs the user to an external link.', 'The movie directed by Damien Chazelle that won the 2017 Guild of Music Supervisors Awards is "La La Land."']
+                        Number of agent calls: 2
+                        Agents called: ['Data Retrieval Agent', 'Text Classification Agent']
+                        Total output tokens: 99
+                        ----------------------------- End of Evaluation Metric for Request : test-user-1-123456177 --------------------------
+
+                
+                        ----------------------------- Start of Evaluation Metric for Request : test-user-1-123456652 --------------------------
+                        User input: 
+                Perform spam analysis on below sentence whether it is Spam or Not-spam. Answer Yes or No 
+Sentence: Hey sachin how are doing today its been long we spoke.   
+         And Find What is the top priority of the company that was formerly known as EyeTech Pharmaceuticals? And The last task is to Evaluate Tommy is making 12 loaves of bread. He needs 4 pounds of flour per loaf. A 10-pound bag of flour costs $10 and a 12-pound bag costs $13. When he is done making his bread, he has no use for flour and so he will throw away whatever is left. How much does he spend on flour if he buys the cheapest flour to get enough?
+                        Agent response: ['The sentence appears to be a friendly greeting and does not contain any spam-related features.', 'The top priority of the company formerly known as EyeTech Pharmaceuticals is centered on the development, commercialization, and delivery of novel therapeutics targeting eye diseases, particularly in the area of ophthalmology. The company focuses on creating treatments that can effectively address conditions like macular degeneration and strives to enhance vision care for patients suffering from various ocular diseases. Significant aggressive partnerships and licensing deals underscore their commitment to exploring new avenues for therapy in this specialized field. For instance, they announced an exclusive licensing deal with Gilead Sciences for a new therapy aimed at age-related macular degeneration, showcasing their focus on innovation in therapeutics. Often, their mission emphasizes improving patient outcomes and establishing themselves as a key resource for retina specialists.']
+                        Number of agent calls: 2
+                        Agents called: ['Data Retrieval Agent', 'Text Classification Agent']
+                        Total output tokens: 43
+                        ----------------------------- End of Evaluation Metric for Request : test-user-1-123456652 --------------------------
+
+                
+                        ----------------------------- Start of Evaluation Metric for Request : test-user-1-123456653 --------------------------
+                        User input: 
+                Classify below sentence whether it is Positive or Negative. Answer Positive or Negative 
+Sentence: I am going to curse you very badly.   
+         And Find R&B and blues musician Daryl Davis performed with which famous American singer born on November 23, 1954? And The last task is to Evaluate John uses the bathroom every 50 minutes.  How many times does he use the bathroom during a 2.5-hour movie?
+                        Agent response: ['Negative', 'Daryl Davis performed with American singer Billy Joel, who was born on November 23, 1954.']
+                        Number of agent calls: 2
+                        Agents called: ['Data Retrieval Agent', 'Text Classification Agent']
+                        Total output tokens: 72
+                        ----------------------------- End of Evaluation Metric for Request : test-user-1-123456653 --------------------------
+
+                
